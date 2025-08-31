@@ -4,6 +4,7 @@
       "command": "uvx",
       "args": ["--from", "awslabs-ecs-mcp-server", "ecs-mcp-server"],
       "env": {
+        
         "FASTMCP_LOG_LEVEL": "ERROR",
         "FASTMCP_LOG_FILE": "/path/to/ecs-mcp-server.log",
         "ALLOW_WRITE": "false",
